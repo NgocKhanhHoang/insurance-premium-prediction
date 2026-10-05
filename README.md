@@ -3,7 +3,7 @@
 ## Project Overview
 This project builds a regression model that predicts the charges billed by a health insurer for an individual, using seven recorded attributes: age, sex, BMI, number of children, smoker status, and region. The workflow covers data inspection, encoding of categorical variables, correlation analysis, model training, hyperparameter tuning with cross-validation, and evaluation on a held-out test set
 
-The tuned Random Forest explains about **84% of the variance** in charges on the test set (R-squared approximately 0.84) with a mean absolute error of roughly **$2,600**, improving on the default model's R-sqaured of 0.80. Smoking status is by far the strongest single relationship with charges: smokers' average charges are about** 3.8 times **those of non-smokers.
+The tuned Random Forest explains about **84% of the variance** in charges on the test set (R-squared approximately 0.84) with a mean absolute error of roughly **$2,600**, improving on the default model's R-squared of 0.80. Smoking status is by far the strongest single relationship with charges: smokers' average charges are about **3.8 times** those of non-smokers.
 
 ## Dataset
 - **Size:** 1,338 rows × 7 columns, with no missing values.
